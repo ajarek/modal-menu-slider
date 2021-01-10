@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    height: 100%;
+    position: relative;
+}
+
+
+
+.header {
+    width: 100%;
+    color: white;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #30336b;
+   
+}
+
+.awesome {
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+    font-size: 1.5rem;
+}
+.h1{
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.btn{
+    padding:2rem ;
+}
+.btn button{
+    background-color:#be2edd ;
+    color: white;
+    font-size:1.2rem;
+    letter-spacing: 1px;
+    padding: 0.8em 2em;
+    border-radius: 0.4em;
+    outline: none;
+    border: none;
+}
+
+.navbar {
+    position: absolute;
+    left:-350px;
+    top: 0px;
+    width: 20%;
+    height: 100%;
+    display: flex;
+ flex-direction: column;
+background-color: #30336b;
+color: white;
+transition: 1s all ease-in-out;
+
+}
+.awesomeX {
+    position: absolute;
+    top: 0.3em;
+    right: 0.5em;
+    font-size: 1.5rem;
+}
+.img{
+    align-self: center;
+    margin: 2em  0;
+   
+}
+.img img{
+    width: 70%;
+    border-radius: 50%;
+}
+.list{
+    align-self: center;
+    width: 100%;
+   
+}
+.list ul{
+   
+    border: 1px solid gray;
+}
+.list ul li{
+    
+    border: 1px solid gray;
+    list-style: none;
+    padding: 1em;
+
+}
+.art{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.art p{
+    font-size: 1rem;
+    padding: 1em;
+}
+.art ul {
+   
+    list-style: none;
+    padding:1em ;
+}
+.active{
+    left: 0px;
+}
+
+
+
+
