@@ -7,3 +7,14 @@ ham.addEventListener('click',()=>{
 iks.addEventListener('click',()=>{
     navbar.classList.remove('active')
 })
+  
+const btn = document.querySelector('.btn');
+const form = document.querySelector('.form')
+const fas = document.querySelector('.headerForm i')
+btn.addEventListener('click',()=>{
+form.classList.add('active1')
+})
+
+fas.addEventListener('click',()=>{
+    form.classList.remove('active1')
+    })
